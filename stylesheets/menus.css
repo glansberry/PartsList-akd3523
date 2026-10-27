@@ -1,0 +1,109 @@
+BODY {
+	font-family: serif, Times;
+	font-size: 80%;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	color: black;
+	background: white;
+	margin: 2px 2px 2px 2px;
+}
+
+BODY.CONTROL_PANEL {
+ 	font-size: 80%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: black;
+	line-height: 100%;
+	background: white;
+	margin: 0px 2px 0px 2px;
+}
+
+A.L2	{
+	color: black;
+	text-decoration: none;
+	}
+
+A.L2:visited {
+	color: black;
+	}
+
+A.L2:hover	{
+	text-decoration: underline;
+	background: transparent;
+	color: red;
+}
+
+A.L3	{
+	color: black;
+	text-decoration: none;
+	}
+
+A.L3:visited {
+	color: black;
+	}
+
+A.L3:hover	{
+	text-decoration: underline;
+	background: transparent;
+	color: red;
+}
+
+A.CONTROL_PANEL	{
+	color: black;
+	text-decoration: none;
+	}
+
+A.CONTROL_PANEL:visited {
+	color: black;
+	}
+
+A.CONTROL_PANEL:hover	{
+	text-decoration: underline;
+	color: red;
+}
+
+TABLE	{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 90%;
+		font-weight: bold;
+		font-style: normal;
+		font-variant: normal;
+		text-decoration: none;
+		border-collapse: collapse;
+		empty-cells: show;
+		background: white;
+		}
+
+	TD	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		}
+
+		TD.L2	{
+			font-size: 110%;
+			}
+
+		TD.OPEN_L2	{
+			font-size: 110%;
+			background: #eaeaea;
+			color: red;
+			}
+
+		TD.L3	{
+			font-style: italic;
+			padding-left: 17px;
+			background: #eaeaea;
+			color: red;
+			}
+		TD.PAGE_NUM	{
+			background: #eaeaea;
+			}
+		TD.PAGE_NUM_OPEN	{
+			background: #eaeaea;
+			color: red;
+			}

@@ -1,0 +1,366 @@
+BODY {
+	font-family: serif, Times;
+	font-size: 80%;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	color: black;
+	background: white;
+	margin: 2px 2px 2px 2px;
+	border: 1px;
+	}
+
+BODY.SEARCH {
+	background: #eaeaea;
+}
+
+.AKD3523 {
+	color: red;
+	}
+
+.AKD3524 {
+	color: blue;
+	}
+
+INPUT	{
+	font-size: 90%;
+	}
+
+H2	{
+	text-align: center;
+	}
+
+OL.L1	{
+	list-style-type: decimal;
+}
+
+OL.L2	{
+	list-style-type: lower-alpha;
+}
+
+OL.AUC {
+	list-style-type: upper-alpha;
+	}
+
+DT	{
+	font-weight: bold
+}
+
+HR	{
+	height: 2px;
+	width: 70%;
+	text-align: center;
+	background: black;
+}
+
+A	{
+	color: black;
+	text-decoration: none;
+	}
+
+A:visited {
+	color: black;
+	}
+
+A:hover	{
+	text-decoration: underline;
+	background: transparent;
+	color: red;
+}
+
+COL.gray-r	{
+				border-right: 1px solid silver;
+				}
+
+MATCHES {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	color: blue;
+	margin-left: 10px;
+}
+
+TABLE	{
+		font-size: 70%;
+		border-collapse: collapse;
+		empty-cells: show;
+		background: white;
+	}
+
+TABLE.EXP_HELP	{
+		font-size: 80%;
+	}
+
+TABLE.SEARCH_RESULT_TABLE	{
+	font-size: 90%;
+	}
+
+	TD.SEARCH_RESULT	{
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		font-variant: normal;
+		font-style: normal;
+		text-decoration: none;
+		vertical-align: top;
+		background: #eaeaea;
+	}
+
+	TBODY.TOC	{
+		font-size: 140%;
+		font-weight: normal;
+		font-variant: normal;
+		font-style: normal;
+		}
+
+
+	TR	{
+	}
+	TR.TOP-BORDER	{
+				border-top: 1px solid black;
+				}
+
+	TR.bottom-border	{
+				border-bottom: 1px solid black;
+				}
+
+	TR.normal	{
+				background: white;
+				}
+
+	TR.colour	{
+				background: #f3f3f3;
+				}
+
+	TD	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 0px;
+		}
+
+		TD.tr	{
+				border-top: 1px solid black;
+				border-right: 1px solid black;
+				}
+		TD.br	{
+				border-right: 1px solid black;
+				border-bottom: 1px solid black;
+				}
+		TD.brbold	{
+				border-right: 2px solid black;
+				border-bottom: 1px solid black;
+				}
+		TD.tbr	{
+					border-top: 1px solid black;
+					border-bottom: 1px solid black;
+					border-right: 1px solid black;
+					}
+		TD.brack-tr	{
+						border-top: 1px solid black;
+						border-right: 1px solid black;
+						}
+		TD.brack-br	{
+						border-bottom: 1px solid black;
+						border-right: 1px solid black;
+						}
+		TD.brack-r	{
+						border-right: 1px solid black;
+						}
+		TD.r	{
+				border-right: 1px solid black;
+				}
+		TD.t	{
+				border-top: 1px solid black;
+				}
+		TD.b	{
+				border-bottom: 1px solid black;
+				}
+		TD.l	{
+				border-left: 1px solid black;
+				}
+		TD.bl	{
+				border-bottom: 1px solid black;
+				border-left: 1px solid black;
+				}
+		TD.g-r	{
+					border-right: 1px solid silver;
+					}
+		TD.g-b	{
+					border-bottom: 2px solid #f3f3f3
+					}
+		TD.w-b	{
+					border-bottom: 2px solid white;
+					}
+		TR.SHORT	{
+					line-height:	.5em;
+					}
+		TD.L1	{
+			font-size: 150%;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-variant: normal;
+			font-style: normal;
+			}
+
+		TD.L2	{
+			font-size: 110%;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-variant: normal;
+			font-style: normal;
+			text-decoration: underline;
+			}
+
+		TD.L3	{
+			font-size: 110%;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-variant: normal;
+			font-style: normal;
+			}
+
+		TD.L4	{
+			font-family: serif, Times;
+			font-weight: normal;
+			font-variant: normal;
+			font-style: normal;
+			}
+
+		TD.L4ASSY	{
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-variant: normal;
+			font-style: normal;
+			}
+
+		TD.L4CONTD	{
+			font-family: Helvetica, Arial, sans-serif;
+			}
+
+		TD.L5 {
+			font-family: serif, Times;
+			font-weight: normal;
+			font-variant: normal;
+			font-style: normal;
+			padding-left: 16px;
+			}
+
+		TD.L5ASSY {
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-variant: normal;
+			font-style: normal;
+			padding-left: 16px;
+			}
+
+		TD.L6 {
+			font-family: serif, Times;
+			font-weight: normal;
+			font-variant: normal;
+			font-style: normal;
+			padding-left: 32px;
+			}
+
+		TD.L6ASSY {
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-variant: normal;
+			font-style: normal;
+			padding-left: 32px;
+			}
+
+		TD.L7 {
+			font-family: serif, Times;
+			font-weight: normal;
+			font-variant: normal;
+			font-style: normal;
+			padding-left: 48px;
+			}
+
+		TD.COUNTRY	{
+					font-weight: bold;
+					font-family: Helvetica, Arial, sans-serif;
+					}
+
+		CAPTION	{
+					caption-side: top;
+					}
+		TD.NO_BREAK	{
+			 white-space: nowrap;
+			}
+
+L1	{
+	font-size: 140%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	margin-top: 10em;
+	}
+
+L2ASSY	{
+	font-size: 110%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	text-decoration: underline;
+	}
+
+L3ASSY	{
+	font-size: 110%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	}
+
+L4	{
+	font-family: serif, Times;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	}
+
+L4ASSY	{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	}
+
+L5 {
+	font-family: serif, Times;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	margin-left: 10px;
+	}
+
+L5ASSY {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	margin-left: 10px;
+	}
+
+L6 {
+	font-family: serif, Times;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	margin-left: 20px;
+	}
+
+L6ASSY {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	margin-left: 20px;
+	}
+
+

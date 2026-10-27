@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<!-- saved from url=(0014)about:internet -->
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+	<meta name="description" content="35230102">
+	<link type="text/css" rel="stylesheet" href="../stylesheets/partslist.css">
+	<script type="text/javascript" language="javascript1.2" src="../javascript/partslist.js"></script>
+	<title>H2; HELP: Configuration</title>
+	<script type="text/javascript" language="javascript1.2">
+		if (!window.opener) {
+			parent.illustrations.location="../data/akd3523_h_1.01.html#configuration"
+		}
+ </script>
+</head>
+<body onLoad='top.load_config_panel();'>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tbody>
+		<tr valign="top">
+			<td class="l1" align="left">MECHANICAL SERVICE PARTS LIST</td>
+			<td class="l1" align="right">AKD 3523</td>
+		</tr>
+		<tr>
+			<td class="t" colspan="3"></td>
+		</tr>
+	</tbody>
+</table>
+<center><h2>Parts List Configuration</h2></center>
+
+<form name="config_form">
+<center>
+<h3>Settings</h3><br>
+<table cellspacing="0" cellpadding="0" border="1" style="font-size:100%">
+	<tbody>
+		<tr>
+			<td colspan="2">Save Configuration on exit?</td>
+			<td><input type="radio" name="save_config" checked onClick="top._save_config_on_exit=1">Yes<input type="radio" name="save_config" onClick="top._save_config_on_exit=0">No</td>
+		</tr>
+		<tr>
+			<td colspan="2">Configuration Saved confirmation dialog?</td>
+			<td><input type="radio" name="save_config_nag" checked onClick="top._save_config_nag=1">Yes<input type="radio" name="save_config_nag" onClick="top._save_config_nag=0">No</td>
+		</tr>
+		<tr>
+			<td colspan="2">Sizing of Images on load</td>
+			<td><input type="text" name="illustration_scale" size="3" maxlength="3" value="100" onChange="top._illustration_scale=(this.value/100);">%</td>
+		</tr>
+		<tr>
+			<td colspan="2">Width of Menu Frame: </td>
+			<td><input type="text" name="menu_frame_width" size="3" maxlength="3" value="25">%<input type="button" onClick="top.setMainFrame(document.config_form.menu_frame_width.value);" value="Apply"></td>
+		</tr>
+		<tr>
+			<td colspan="2">Height of Print Frame: </td>
+			<td><input type="text" name="print_frame_height" size="3" maxlength="3" value="30">%<input type="button" onClick="top.setPrintFrame(document.config_form.print_frame_height.value);" value="Apply"></td>
+		</tr>
+		<tr>
+			<td colspan="2">Printing Options:</td>
+			<td>See Print Panel</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<br>
+
+<input type="button" name="save" value="Save Configuration" onClick="top.saveConfig();"><br><br>
+
+<!--
+<h3>Reset Configuration</h3>
+Pressing the 'Reset Configuration' button will reset all values to their defaults, and return you to the opening page.<br>
+<br>
+<input type="button" onClick="top.resetConfig()" value="Reset Configuration"> -->
+
+</center>
+</form>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tbody>
+		<tr>
+			<td>
+				&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td class="l4" align="center">
+				Issue 1.01
+			</td>
+		</tr>
+		<tr>
+			<td class="t" colspan="3"></td>
+		</tr>
+		<tr>
+			<td class="l1" align="center">
+H2</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

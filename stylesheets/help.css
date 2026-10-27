@@ -1,0 +1,98 @@
+BODY {
+	font-weight: normal;
+	font-size: 12px;
+	font-family: Times, serif;
+	font-variant: normal;
+	font-style: normal;
+	color: black;
+	background: white;
+	margin: 2px 2px 2px 2px;
+}
+
+BODY.SEARCH {
+	background: #eaeaea;
+}
+
+DT	{
+	font-weight: bold
+}
+
+A {
+	text-decoration: none;
+	font-family: sans-serif, Helvetica, Arial;
+	font-weight: bold;
+	color: black;
+}
+
+A:visited {
+	color: black;
+	}
+
+A:hover	{
+	text-decoration: underline;
+	color: red;
+	}
+
+A.SEARCH_RESULT_LINK {
+	text-decoration: none;
+	font-family: sans-serif, Helvetica, Arial;
+	font-weight: bold;
+	color: black;
+}
+
+.SEARCH_RESULT_LINK:visited {
+	color: black;
+}
+
+A.SEARCH_RESULT_LINK:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+MATCHES {
+	font-weight: bold;
+	font-size: 9px;
+	font-family: sans-serif, Helvetica, Arial;
+	font-variant: normal;
+	font-style: normal;
+	color: blue;
+	margin-left: 10px;
+}
+TABLE	{
+	font-size: 10px;
+	border-collapse: collapse;
+	empty-cells: show;
+	background: white;
+}
+
+TABLE.NORMAL	{
+	font-size: 10px;
+	border-collapse: collapse;
+	empty-cells: show;
+	background: white;
+}
+
+TABLE.SEARCH_RESULT_TABLE	{
+	font-size: 10px;
+	border-collapse: collapse;
+	empty-cells: show;
+	background: white;
+	background: #f3f3f3;
+	}
+
+	TD	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+		TD.SEARCH_RESULT	{
+			font-size: 11px;
+			font-family: sans-serif, Helvetica, Arial;
+			font-weight: bold;
+			font-variant: normal;
+			font-style: normal;
+			text-decoration: none;
+			background: #eaeaea;
+		}
