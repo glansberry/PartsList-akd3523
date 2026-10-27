@@ -1,14 +1,19 @@
 # Austin-Healey 3000 Parts List
 
 A browsable copy of the factory service parts lists for the Austin-Healey 3000, series BJ7 and BJ8.
+Originally found at https://lbcdigital.com/bmc_publications/akd3523/  ,copied here and I resolved some problems for modern browsers, and local hosting.
 
 - **AKD 3523** is the mechanical parts list. The catalog opens here.
 - **AKD 3524** is the body details list. Choose **Body Details** at the bottom of the menu.
 
 Each section has a parts table and, on most pages, a plate (the exploded drawing).
 
-## Open it
+## Access it from github:
+visit https://glansberry.github.io/PartsList-akd3523/
 
+## Open it locally
+
+You can download the files and browse locally on your computer, or a self-service web browser
 Open `index.html` in Chrome, Firefox, Edge, or Safari. No install is required.
 
 The window has three areas:
