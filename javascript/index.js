@@ -474,10 +474,12 @@ function default_values() {
 function load_setup() {
 
 // Set Print Control Frame to saved values
-	top.print_frame.document.print_form.linespacing.value	= _linespacing;
-	top.print_frame.document.print_form.height.value		= _illustration_height;
-	top.print_frame.document.print_form.print_preview_width.value		= _print_preview_width;
-	top.print_frame.document.print_form.print_preview_height.value		= _print_preview_height;
+	try {
+		top.print_frame.document.print_form.linespacing.value	= _linespacing;
+		top.print_frame.document.print_form.height.value		= _illustration_height;
+		top.print_frame.document.print_form.print_preview_width.value		= _print_preview_width;
+		top.print_frame.document.print_form.print_preview_height.value		= _print_preview_height;
+	} catch (e) {}
 
 // Set Frames to saved values
 	_frame_menu_open		= _frame_menu_width + "," + (100-parseInt(_frame_menu_width)) + "%";
